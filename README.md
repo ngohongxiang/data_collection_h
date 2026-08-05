@@ -67,6 +67,7 @@ Instead of regex replace, operates on bytearray for O(n) decoding with minimal a
 
 <img width="1324" height="235" alt="ran_pipeline" src="https://github.com/user-attachments/assets/f0c9dfde-a1cc-4a8c-85f7-a5b15fc3f98e" />
 
+
 | Parser | Avg Time (4404 contacts) | Notes |
 | :--- | :--- | :--- |
 | BeautifulSoup | ~18.93s | Baseline, most readable |
@@ -94,7 +95,7 @@ python data_collection_pipeline.py
 
 For live fetch:
 ```bash
-# Set DEBUG_MODE=False in .env and add real BASE_URL
+# Set DEBUG_MODE=False in .env and add real BASE_URL/FILTER_URL (query)
 python -c "from data_collection_pipeline import DataCollectionPipeline; DataCollectionPipeline().run()"
 ```
 
