@@ -65,6 +65,8 @@ Instead of regex replace, operates on bytearray for O(n) decoding with minimal a
 
 ### Results
 
+<img width="1324" height="235" alt="ran_pipeline" src="https://github.com/user-attachments/assets/f0c9dfde-a1cc-4a8c-85f7-a5b15fc3f98e" />
+
 | Parser | Avg Time (4404 contacts) | Notes |
 | :--- | :--- | :--- |
 | BeautifulSoup | ~18.93s | Baseline, most readable |
